@@ -1,7 +1,0 @@
-.first-table {
-    border: 1px solid black;
-}
-
-.first-table, .first-table-data, tr, td {
-	border: 1px solid black;
-}
