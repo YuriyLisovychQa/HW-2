@@ -52,14 +52,49 @@
       </table>
      </div>
      <div>
-         <label for=""></label>
+     	<table>
+        	<tr>
+            	<td>
+         			<label for="name"></label>
+         			<input type="text" id="name" name="name" placeholder="your name" required>
+                </td>
+            </tr>
+            <tr>
+            	<td>
+         			<label for="surname"></label>
+         			<input type="text" id="surname" name="surname" placeholder="your surname" required>
+                </td>
+            </tr>    
+        </table>
      </div>
      <div>
          <h2>Gender</h2>
-      <label for="gender">Male</label>
-      <input type="radio" id"male" name="gender" required>
+      <label for="male">Male</label>
+      <input type="radio" id="male" name="gender" required>
       <label for="famale">Famale</label>
-      <input type="radio" id"famale" name="gender" required>
+      <input type="radio" id="famale" name="gender" required>
+     </div>
+     <div>
+     	<textarea rows="10" colums="15" name="feedback" placeholder="your feedback"></textarea>
+     </div>
+     <div>
+     	<h3>Choose language:</h3>
+       		<div>
+     			<input type="checkbox" id="English" name="English">
+            	<label for="English">English</lable>
+            </div>
+            <div>
+            	<input type="checkbox" id="Ukrainian" name="Ukrainian">
+            	<label for="Ukrainian">Ukrainian</lable>
+            </div>
+            <div>
+            	<input type="checkbox" id="Italian" name="Italian">
+            	<label for="Italian">Italian</lable>
+            </div>
+     </div>
+     <div>
+     	<button type="button"> sent 
+      </button>
      </div>
   </body>
 </html>
