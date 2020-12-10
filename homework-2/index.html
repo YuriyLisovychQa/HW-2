@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <title>HW#2 "Поняття Front-End. HTML"</title>
 </head>
 <body>
     <h1>HW#2 "Поняття Front-End. HTML"</h1>
      <div>
-      <table border="2">
-        <thead>
+      <table class="first-table">
+        <thead class="first-table-data">
          <tr>
            <th>Name</th>
            <th>Surname</th>
@@ -17,7 +18,7 @@
            <th>Email</th>
          </tr>
         </thead>
-        <tbody>
+        <tbody class="first-table-data">
          <tr>
             <td>Nickobaby</td>
             <td>Nikolov</td>
@@ -52,17 +53,17 @@
       </table>
      </div>
      <div>
-     	<table>
-        	<tr>
-            	<td>
-         			<label for="name"></label>
-         			<input type="text" id="name" name="name" placeholder="your name" required>
+      <table>
+          <tr>
+              <td>
+              <label for="name"></label>
+              <input type="text" id="name" name="name" placeholder="your name" required>
                 </td>
             </tr>
             <tr>
-            	<td>
-         			<label for="surname"></label>
-         			<input type="text" id="surname" name="surname" placeholder="your surname" required>
+              <td>
+              <label for="surname"></label>
+              <input type="text" id="surname" name="surname" placeholder="your surname" required>
                 </td>
             </tr>    
         </table>
@@ -75,25 +76,25 @@
       <input type="radio" id="famale" name="gender" required>
      </div>
      <div>
-     	<textarea rows="10" colums="15" name="feedback" placeholder="your feedback"></textarea>
+      <textarea rows="10" colums="15" name="feedback" placeholder="your feedback"></textarea>
      </div>
      <div>
-     	<h3>Choose language:</h3>
-       		<div>
-     			<input type="checkbox" id="English" name="English">
-            	<label for="English">English</lable>
+      <h3>Choose language:</h3>
+          <div>
+               <label for="English">English</lable>
+             <input type="checkbox" id="English" name="English">
             </div>
             <div>
-            	<input type="checkbox" id="Ukrainian" name="Ukrainian">
-            	<label for="Ukrainian">Ukrainian</lable>
+               <label for="Ukrainian">Ukrainian</lable>
+              <input type="checkbox" id="Ukrainian" name="Ukrainian">
             </div>
             <div>
-            	<input type="checkbox" id="Italian" name="Italian">
-            	<label for="Italian">Italian</lable>
+               <label for="Italian">Italian</lable>
+              <input type="checkbox" id="Italian" name="Italian">
             </div>
      </div>
      <div>
-     	<button type="button"> sent 
+      <button type="button"> sent 
       </button>
      </div>
   </body>
